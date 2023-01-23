@@ -1,0 +1,33 @@
+direction: up
+
+통계학원론: {
+  shape: image
+  icon: https://bimage.interpark.com/partner/goods_image/0/8/0/2/330170802g.jpg
+}
+통계수학: {
+  shape: image
+  icon: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788961052009.jpg
+}
+행렬대수학: {
+  shape: image
+  icon: https://bimage.interpark.com/partner/goods_image/1/7/4/0/201811740g.jpg
+}
+
+수리통계학입문: {
+  shape: image
+  icon: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791186378366.jpg
+}
+
+수리통계학입문 <- 통계학원론: 확률, 통계
+수리통계학입문 <- 통계수학: 미적분
+수리통계학입문 <- 행렬대수학: 행렬
+
+title: Statistic Curriculum {
+  shape: text
+  near: top-center
+  style: {
+    font-size: 55
+    font-color: blue
+    bold: true
+  }
+}
